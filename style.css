@@ -1,5 +1,6 @@
 .content{
 	max-width:980px
+	display:flex;
 }
 
 .left-half{
