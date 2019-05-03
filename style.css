@@ -15,7 +15,7 @@
 	clear:both
 }
 .right-half{
-	float:right;
+	float:left;
 	width:100%;
 	color:#fff!important;
 	background-color:##3f51b5!important;
