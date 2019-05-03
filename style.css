@@ -1,6 +1,5 @@
 .content{
 	max-width:980px
-	display:flex;
 }
 
 .left-half{
@@ -9,7 +8,6 @@
 	color:#fff!important;
 	background-color:#000!important;
 	text-align:center!important;
-	
 	width:auto;
 	content:"";
 	display:table;
