@@ -13,7 +13,7 @@ section .screen {
 	position: relative;
 	flex-grow: 1;
 	display: flex;
-	
+	justify-content: center;
 	align-items: center;
 }
 
@@ -28,6 +28,9 @@ section .screen:nth-child(2){
 h1, p{
 	font-family: 'Roboto';
 	color: white;
+}
+p{
+	font-size: 14px;
 }
 
 
