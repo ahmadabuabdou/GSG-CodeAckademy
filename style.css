@@ -1,42 +1,80 @@
-.content{
-	max-width:980px
+body{
+	padding: 0px;
+	margin: 0px;
 }
 
-.left-half{
-	float:left;
-	width:100%;
-	color:#fff!important;
-	background-color:#000!important;
-	text-align:center!important;
-	width:auto;
-	content:"";
-	display:table;
-	clear:both
-}
-.right-half{
-	float:right;
-	width:100%;
-	color:#fff!important;
-	background-color:##3f51b5!important;
-	text-align:center!important;
-	width:auto;
-	content:"";
-	display:table;
-	clear:both
-	
-}
-.title{
-	display:inline-block;
-	width:auto;
-	text-align:center!important;
-	padding-top:64px!important;
-	padding-bottom:64px!important;
+section{
+	position: relative;
+	height: 100vh;
+	display: flex;
 }
 
-.row{
-	content:"";
-	display:table;
-	clear:both;
-	margin-top:16px;
-	margin-bottom:16px;
+section .screen {
+	position: relative;
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+
+section .screen:nth-child(1){
+	background: red;
+}
+
+section .screen:nth-child(2){
+	background: black;
+}
+
+h1, p{
+	font-family: 'Roboto';
+	color: white;
+}
+
+
+section .screen .card{
+	max-width: 300px;
+	text-align: center;
+}
+
+section .screen .card .imgBx{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 auto;
+
+}
+
+section .screen .card .imgBx img{
+	max-width: 100%; 
+}
+
+
+
+img {
+  verical-align: middle;
+  transition: transform .2s;
+ 	}
+ img:hover {
+    cursor: pointer;
+    -ms-transform: scale(1.5); /* IE 9 */
+  	-webkit-transform: scale(1.5); /* Safari 3-8 */
+ 	transform: scale(1.5); 
+ }
+    img:hover.red {
+      -webkit-filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2);
+      filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+    }
+    img:hover.blue {
+      -webkit-filter: grayscale(100%) brightness(30%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(0.8);
+      filter: grayscale(100%) brightness(30%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(0.8);
+    }
+    img:hover.green {
+      -webkit-filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(50deg) saturate(1000%) contrast(0.8);
+      filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(50deg) saturate(1000%) contrast(0.8);
+    }
+    
+    img:hover.black {
+      -webkit-filter: invert(30%) grayscale(100%) brightness(70%) contrast(4);
+      filter: invert(30%) grayscale(100%) brightness(70%) contrast(4);
+    }
