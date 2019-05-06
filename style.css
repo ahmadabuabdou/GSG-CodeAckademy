@@ -105,17 +105,15 @@ section .screen .card .imgBx img{
   transform: scaleY(1);
 }
 
-
-
 img {
   verical-align: middle;
   transition: transform .2s;
  	}
  img:hover {
     cursor: pointer;
-    -ms-transform: scale(1.5); /* IE 9 */
-  	-webkit-transform: scale(1.5); /* Safari 3-8 */
- 	transform: scale(1.5); 
+    -ms-transform: scale(1.2); /* IE 9 */
+  	-webkit-transform: scale(1.2); /* Safari 3-8 */
+ 	transform: scale(1.2); 
  }
     img:hover.red {
       -webkit-filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2);
