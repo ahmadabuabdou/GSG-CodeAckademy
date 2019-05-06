@@ -20,8 +20,8 @@ section .screen {
 
 .middle{
   position: absolute;
-  top: 80%;
-  left: 30%;
+  top: 70%;
+  left: 80%;
   text-align: center;
   padding-top: 10px;
 }
@@ -43,7 +43,6 @@ section .screen {
 
 .btn:hover{
   color: #000;
-  
 }
 
 .btn::before{
@@ -154,9 +153,12 @@ section .screen .card .imgBx img{
 
 
 .middle{
+	display: none;
 }
 
 .btn{
+ 	display: none;
+
 }
 
 
