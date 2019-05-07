@@ -139,7 +139,6 @@ section{
 }
 
 section .screen {
-  display: block;
   height: 100vh;
 }
 
