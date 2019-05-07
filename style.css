@@ -138,6 +138,11 @@ section{
   display: block;
 }
 
+section .screen {
+  display: block;
+  height: 100vh;
+}
+
  .middle{
  display: none;
 }
