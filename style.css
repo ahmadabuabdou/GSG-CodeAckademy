@@ -2,24 +2,6 @@ body{
   padding: 0px;
   margin: 0px;
 }
-@media only screen and (max-width: 600px) {
-
-section{
-  display: block;
-}
-
-section .screen {
-  display: block;
-}
-
- .middle{
- display: none;
-}
-.btn{
-  display: none;
-}
-
-} 
 
 section{
   position: relative;
@@ -149,3 +131,22 @@ img {
 #more {
   display: none;
 }
+
+@media only screen and (max-width: 600px) {
+
+section{
+  display: block;
+}
+
+ .middle{
+ display: none;
+}
+.btn{
+  display: none;
+}
+
+#more {
+  display: block;
+}
+
+} 
